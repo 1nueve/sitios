@@ -1,0 +1,195 @@
+/* CSS document */
+
+body{ background: url(images/back-1.jpg) repeat-x ;}
+
+#cont{ width: 100%; height: 100%; background: url(images/back-frame.png) repeat-x;} 
+
+#container{  width: 980px; height: 700px; margin: 0 auto; background: url(images/centro.png) no-repeat}\
+
+#contenido{
+	width: 830px; height:550px; border: 1px solid #000000; padding-top: 25px
+}
+
+
+/*-----------------------------------------------------------------HEADER---------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+
+#header{width: 85%; height: 77px; padding: 20px 10% 0px 5%; margin-bottom: 5px;}
+#header_title{width: 250px; height: 10px;display:inline-block; float: left; color: #fff; font-family: 'Arial'; 
+font-size:.7em; margin-left: 30px;
+line-height: 75px;}
+#flag{width: 18px; height: 18px; display: inline-block; background: url(images/flag.jpg) no-repeat; float: right; margin-top: 30px; }
+
+#logo{width: 150px; height: 70px; display: block; background: url(images/logo.png) no-repeat; float: left; margin-left: 95px}
+
+.submenu{
+		border-bottom: 1px solid #d5cbdc; color: #000000 !important; 	
+	}	
+
+.submenu:hover{ background: #d0cfcd; width: 200px}
+
+/*======================INDEX========================================= */
+#slide{ width: 668px; height :275px; margin-top: }
+
+#games{ width: 670px; height: 72px; margin: 0 auto; margin-top: 70px;}
+.games_option{ width: 19%; height: 100%; display: inline-block;}
+.games_option:hover{ opacity: .5}
+#x{ background:  url(images/mrx.jpg) no-repeat center;}
+#farm{ background:  url(images/farm.jpg) no-repeat center;}
+#vikings{ background:  url(images/vikings.jpg) no-repeat center;}
+#hot{ background:  url(images/hot.jpg) no-repeat center;}
+#future{ background:  url(images/future.jpg) no-repeat center;}
+#sliders { width: 670px; height: 275px; margin: 0 auto; }
+
+/*======================PRODUCTO========================================= */
+
+#slide-producto{ width: 668px; height: 200px; overflow: hidden; margin:0 auto;}
+#arrow-der{ width: 13px; height: 24px; background: url(images/arrow-der.gif) no-repeat; display: inline-block; float: right; margin-top: 70px}
+#arrow-izq{ width: 13px; height: 24px; background: url(images/arrow-izq.gif) no-repeat; display: inline-block; float: left;margin-top: 70px}
+#datos{ width: 668px; height: 327px}
+#video-prod{width: 648px; height: 327px; margin:0 auto;
+background: url(images/back-bono.gif)no-repeat;
+}
+
+/*---------------------========----------==============BONOS=======---------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#videobonos{
+	width: 350px;
+	height:327px; 
+	float:left;
+}
+
+#fichatecnica, #img-bonos{
+	width: 272px;
+	height:130px; 
+	float:left;
+	
+}
+
+
+
+
+/*======================PRODUCTOS========================================= */
+
+#slide-producto-bono{ width: 800px; height: 500px; overflow: hidden; margin:0px auto 0 auto; 
+	background: url(images/sombra-back.gif) 
+	no-repeat center 400px;}
+#arrow-der-bono{ width: 13px; height: 24px; background: url(images/arrow-der.gif) no-repeat; 
+	display: inline-block; float: right; margin-top:200px}
+#arrow-izq-bono{ width: 13px; height: 24px; background: url(images/arrow-izq.gif) no-repeat; 
+	display: inline-block; float: left;margin-top: 200px}
+
+#arrow-izq:hover{ opacity: .5}
+#arrow-der:hover{opacity: .5}
+
+
+/*======================HISTORIA========================================= */
+
+#cont-div p{font-family:'Arial';color:#a6a6a6; margin-bottom: 20px; text-align: justify; letter-spacing: 1px;}
+#cont-div{width: 628px; height: 307px; margin:0 auto; background: url(images/back-cont.jpg) no-repeat; margin-top: 100px; 
+	padding: 20px 20px 0px 20px ;}
+
+
+/*======================GADGETS======================================== */
+
+
+#gadgets_botones{width: 745px; height: 116px; margin: 0 auto; background: url(images/sombra-gadgets.png) bottom no-repeat;}
+a#gadgets_boton{width: 246px; height: 102px; display: block; float: left;
+border: 1px solid #c2c2c2 }
+a#gadgets_boton:hover{ background: url(images/boton-gadgets-hover.jpg) no-repeat;}
+
+#image-gad{ width: 743px; height: 352px; background: url(images/image-gadgets.jpg) no-repeat; margin: 30px auto 0 auto}
+
+/*------------------------------------------------------------------FOOTER----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+
+#footer{ width: 100%; height: 87px; background: url(images/footer.jpg) repeat-x ; padding-top: 6px; margin-top: 13px;}
+#social{ display: block; height: 24px; width: 102px; background: url(images/social.jpg) no-repeat; text-align: center;
+margin: 0 auto; }
+#copyright{ margin: 15px auto; font-size: 10px; color: #818081; font-family: 'Arial'; width: 149px; height: 18px;  }
+
+
+/*---------------------========----------==============BONOS=======---------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#video-bono{
+	height:; 
+	float:;
+
+}
+
+
+/*---------------------========----------==============TEXTOS=======---------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#textos{
+	width: 686px;
+	height: 407px;
+	padding: 30px 93px 0 84px;
+	margin: 0 auto;
+	font-family: "Arial";
+	color: #818181;
+	text-align: justify;
+}
+
+#textos p { font-size: 12px; word-spacing: 0.2em; line-height: 1.4em; padding: 10px 0}
+
+#textos-title { margin: 0 0 22px 0; font-weight: bold;}
+
+
+/*=========================bonos======================================*/
+a#sirprice, a#golmania, a#circus, a#genial, a#hotchilli,a#ofuture,a#magicpot,a#galaxy,a#dulcemania,a#mrx,a#chickenfarm,
+a#topo,a#skybonus,a#luckynote,a#triplebonus,a#acemania,a#vikings,a#newtriple{
+	width: 770px;height: 400px;display:inline-block;
+}
+
+a#sirprice{background: url(images/bonos/bonos-1.png) no-repeat;} a#sirprice:hover{ background: url(images/bonos/bonos-2.png) no-repeat;}
+
+a#golmania{background: url(images/bonos/bonos-3a.png) no-repeat;} a#golmania:hover{background: url(images/bonos/bonos-3.png) no-repeat;}
+
+a#circus{background: url(images/bonos/bonos-05.png) no-repeat;}a#circus:hover{background: url(images/bonos/bonos-06.png) no-repeat;}
+
+a#genial{background: url(images/bonos/bonos-07.png) no-repeat;}a#genial:hover{background: url(images/bonos/bonos-08.png) no-repeat;}
+
+a#hotchilli{background: url(images/bonos/bonos-09.png) no-repeat;}a#hotchilli:hover{background: url(images/bonos/bonos-10.png) no-repeat;}
+
+a#ofuture{background: url(images/bonos/bonos-11.png) no-repeat;}a#ofuture:hover{background: url(images/bonos/bonos-12.png) no-repeat;}
+
+a#magicpot{background: url(images/bonos/bonos-13.png) no-repeat;}a#magicpot:hover{background: url(images/bonos/bonos-14.png) no-repeat;}
+
+a#galaxy{background: url(images/bonos/bonos-15.png) no-repeat;}a#galaxy:hover{background: url(images/bonos/bonos-16.png) no-repeat;}
+
+a#dulcemania{background: url(images/bonos/bonos-17.png) no-repeat;}a#dulcemania:hover{background: url(images/bonos/bonos-18.png) no-repeat;}
+
+a#mrx{background: url(images/bonos/bonos-19.png) no-repeat;}a#mrx:hover{background: url(images/bonos/bonos-20.png) no-repeat;}
+
+a#chickenfarm{background: url(images/bonos/bonos-21.png) no-repeat;}a#chickenfarm:hover{background: url(images/bonos/bonos-22.png) no-repeat;}
+
+a#topo{background: url(images/bonos/bonos-23.png) no-repeat;}a#topo:hover{background: url(images/bonos/bonos-23.png) no-repeat;}
+
+a#skybonus{background: url(images/bonos/bonos-25.png) no-repeat;}a#skybonus:hover{background: url(images/bonos/bonos-26.png) no-repeat;}
+
+a#luckynote{background: url(images/bonos/bonos-27.png) no-repeat;}a#luckynote:hover{background: url(images/bonos/bonos-28.png) no-repeat;}
+
+a#triplebonus{background: url(images/bonos/bonos-29.png) no-repeat;}a#triplebonus:hover{background: url(images/bonos/bonos-30.png) no-repeat;}
+
+a#acemania{background: url(images/bonos/bonos-31.png) no-repeat;}a#acemania:hover{background: url(images/bonos/bonos-32.png) no-repeat;}
+
+a#vikings{background: url(images/bonos/bonos-33.png) no-repeat;}a#vikings:hover{background: url(images/bonos/bonos-34.png) no-repeat;}
+
+a#newtriple{background: url(images/bonos/bonos-35.png) no-repeat;}a#newtriple:hover{background: url(images/bonos/bonos-36.png) no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
