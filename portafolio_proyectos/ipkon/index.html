@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>IPKON</title>
+  <meta name="description" content="Ipkon">
+  <meta name="portafolio comunicacion" content="SitePoint">
+  <link rel="stylesheet" href="stylo.css">
+  <script type='text/javascript' src="jquery-1.8.3.min.js"></script>
+
+  	<script type="text/javascript">
+          $(document).ready(function(){
+                    $('#aves').hide(0).delay(4000).fadeIn(3000)
+
+                    .animate({'left':'-10px'},12000).fadeOut(3000);
+
+
+          });
+	</script>
+</head>
+<body>
+
+	<div id="container">
+		<header></header>
+		
+		<section id="main">
+			
+			<section id="izq">
+			
+				<div id="flecha" style="top:39px;"></div>
+			
+				<nav>
+					<a href="index.html" id="active" class="botones">Home</a>
+					<a href="tuneles.html" class="botones">T&uacute;neles</a>
+					<a href="puentes.html"  class="botones">Puentes Peatonales</a>
+					<a href="tapiales.html" class="botones">Tapiales</a>
+					<a href="cc.html" class="botones">Centros Comerciales</a>
+					
+					<a href="video.html" class="botones">Video</a>
+				</nav>
+				<div id="counter">
+					<p>Nuestro sitio está siendo redise&ntilde;ado</p>
+					<iframe src="counter-down/index.html" id="counterdown"></iframe>
+					<p>Regresaremos pronto</p>
+				</div>
+				
+			</section>
+			
+			
+			
+			<section id="cont-index">
+			
+				<p>
+					Ante el caos publicitario que bombardea al ciudadano, Ipkon es una empresa 100% hecha en México, que nace 
+					con una innovadora oferta de medios exteriores publicitarios.
+
+					De acuerdo al Programa de Reordenamiento del Gobierno del D.F., Ipkon tiene el objetivo de apoyar el rescate 
+					de espacios urbanos como:  Túneles, Puentes Peatonales y Tapiales.
+
+					Además de la opción de Centros Comerciales y Vallas Móviles.
+
+					Conscientes de que el consumidor espera recibir un beneficio, Ipkon rescata estos espacios para convertirlos
+					en pequeños oasis en la ciudad, medios armónicos con visibilidad absoluta, nuevos formatos, innovación, calidad
+					de producción, formalidad y seguridad total.
+				</p>
+			
+			
+			
+								
+				
+			</section>
+			
+			
+			
+			<div id="contacto-index">
+				
+						<div id="form">
+
+            				<form method="POST" action="send.php" id="formulario">
+              
+            	   				<div id="nombre"> <input name="nombre" /> <input name="apellido" /> </div>
+                				<div id="mail"> <input name="mail" /> </div>
+                				<div id="telefono"> <input name="telefono" /> </div>
+                				<div id="dir"> <textarea name="mensaje"></textarea> </div>
+                				<input id="enviar" type="submit" value="enviar"/>
+              
+            				</form>
+        
+        				</div>
+				
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			<div id="edificios" class="fade">
+				<div id="aves" class="fade2"></div>
+			</div>
+
+			<script>
+  			  $(".fade").hide(0).delay(900).fadeIn(2000)
+			</script>
+		<!--	<script>
+  			  $(".fade2").hide(0).delay(4000).fadeIn(3000).fadeOut("slow")
+			</script> -->
+			
+		</section>
+		
+		<footer>
+			<img class="dir" src="images/footer-back.png">
+			<img class="grower" src="images/glow.png">
+			<script type="text/javascript">
+							$(document).ready(function() {
+			    var $grower = $('.grower');
+
+			    function runIt() {
+			        $grower.animate({
+			            width: "15px",
+			            height: '15px',
+			            left: "635px",
+			            bottom: "74px",
+			            opacity:".5"
+			        }, 3000, function() {
+			            $grower.removeAttr("style");
+			            runIt();
+			        });
+			    }
+
+			    runIt();
+			});
+
+		
+
+			</script>
+		</footer>
+	</div>
+  
+</body>
+</html>

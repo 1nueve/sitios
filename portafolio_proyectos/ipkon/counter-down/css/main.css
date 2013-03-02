@@ -1,0 +1,137 @@
+/*------------------- FONT LICENSE */
+
+@font-face {
+    font-family: 'fontBold';
+    src: url('../fonts/fontBold.ttf');
+    src: url('../fonts/fontBold.woff') format('woff'),
+         url('../fonts/fontBold.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:100%;
+	height:100%;
+	font-family:'fontBold', sans-serif;
+	background:#f0f0f0;
+}
+
+#wrapper{
+	width:175px;
+
+	margin:0 auto;
+	/*margin-top:40px;*/
+}
+
+.clear{
+	width:100%;
+	clear:both;
+}
+
+a{
+	outline:0;
+	border:0;
+}
+
+
+.styleWrap{
+	width:700px;
+	background:#fff;
+	border:1px solid #eaeaea;
+	padding:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	-moz-box-shadow:5px 5px 10px #baaf8b;
+	-webkit-box-shadow:5px 5px 10px #baaf8b;
+	box-shadow:5px 5px 10px #baaf8b;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+
+#box{
+	background: url(../img/bg.png);
+	-moz-box-shadow:5px 5px 10px #baaf8b;
+	-webkit-box-shadow:5px 5px 10px #baaf8b;
+	box-shadow:5px 5px 10px #baaf8b;
+	width:700px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:20px;
+}
+	
+select{
+	padding:10px;
+	border:1px solid #ccc;
+	background: url(../img/bg.png);
+	height:25px;
+	color:#837c65;
+}
+
+.preview{
+	background: url(../img/bg2.png);
+	padding:5px;
+	color:#e6dcbb;
+	font-size:12px;
+	font-weight:bold;
+	font:'mainFont', sans-serif;
+	text-transform:uppercase;
+	float:right;
+	border:0px;
+	cursor:pointer;
+}
+
+/*======================stilos propios =====================*/
+
+#daysOne, #hoursOne, #minsOne, #secsOne{
+color:#000000;
+font-size:16px;
+width:23px;
+float:left;
+padding:10px;
+text-align:center;
+font-family:Arial;
+font-weight:100;
+}
+
+#daysboxDiv, #hoursboxDiv, #minsboxDiv, #secsboxDiv{
+width:40px;
+float:left;
+padding:10px;
+position:relative;
+-webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-ms-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+height:200px;
+}
+
+#minsboxDiv img{
+vertical-align:bottom;
+}
+
+.boxImg{
+background:url(../img/counter.png) no-repeat;
+vertical-align:bottom;
+display:table-cell;
+width:20px;
+height:20px;
+float:left;
+}
+
+.smallText{
+font-size:10px;
+font-family:Arial;
+font-style:italic;
+text-align:center;
+}
+	
+
