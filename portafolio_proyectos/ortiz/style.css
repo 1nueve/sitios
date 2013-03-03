@@ -7,9 +7,15 @@ body{ background: url(images/back-1.jpg) repeat-x ;}
 #container{  width: 980px; height: 700px; margin: 0 auto; background: url(images/centro.png) no-repeat}\
 
 #contenido{
-	width: 830px; height:550px; border: 1px solid #000000; padding-top: 25px
+	width: 830px; height:550px; 
+	border: 1px solid #000000; 
+	padding-top: 25px;
+	
 }
 
+#contenido{
+	display: none;
+}
 
 /*-----------------------------------------------------------------HEADER---------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
@@ -36,41 +42,230 @@ line-height: 75px;}
 .games_option:hover{ opacity: .5}
 #x{ background:  url(images/mrx.jpg) no-repeat center;}
 #farm{ background:  url(images/farm.jpg) no-repeat center;}
-#vikings{ background:  url(images/vikings.jpg) no-repeat center;}
+#vikings-home{ background:  url(images/vikings.jpg) no-repeat center;}
 #hot{ background:  url(images/hot.jpg) no-repeat center;}
 #future{ background:  url(images/future.jpg) no-repeat center;}
 #sliders { width: 670px; height: 275px; margin: 0 auto; }
 
 /*======================PRODUCTO========================================= */
 
-#slide-producto{ width: 668px; height: 200px; overflow: hidden; margin:0 auto;}
+#slide-producto{ width: 668px; height: 175px; overflow: hidden; margin:0 auto;}
 #arrow-der{ width: 13px; height: 24px; background: url(images/arrow-der.gif) no-repeat; display: inline-block; float: right; margin-top: 70px}
 #arrow-izq{ width: 13px; height: 24px; background: url(images/arrow-izq.gif) no-repeat; display: inline-block; float: left;margin-top: 70px}
 #datos{ width: 668px; height: 327px}
 #video-prod{width: 648px; height: 327px; margin:0 auto;
-background: url(images/back-bono.gif)no-repeat;
+
 }
 
 /*---------------------========----------==============BONOS=======---------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-#videobonos{
-	width: 350px;
-	height:327px; 
-	float:left;
+#ficha{
+	width: 825px;
+	height: 335px;
+	margin: 0 auto;
+	background: url(images/back-bono.gif)no-repeat;
 }
 
-#fichatecnica, #img-bonos{
+#ficha-ofuture{
+	width: 825px;
+	height: 335px;
+	margin: 0 auto;
+	background: url(images/back-ofuture.gif)no-repeat;
+}
+
+#videobonos{
+	width: 393px;
+	height:250px; 
+	float:left;
+	margin: 40px 0 0 20px;
+}
+
+#fichatecnica{
+	width: 300px;
+	height:130px; 
+	float:left;
+	margin: 40px 0 0 45px;	
+}
+
+
+
+#fichatecnica h3{
+	font-family: "Arial";
+	font-weight: bolder;
+	font-size: 14px;
+	margin: 5px 0 0 10px;
+}
+
+#fichatecnica p{
+	font-family: "Arial";
+	font-size: 12px;
+	color: #b6b6b6;
+	text-align: justify;
+	line-height: 14px;
+	margin: 21px 0 0 15px;
+}
+
+#fichatecnicasky{
 	width: 272px;
 	height:130px; 
 	float:left;
-	
+	margin: 40px 0 0 35px;	
+}
+
+#fichatecnicasky p{
+	font-family: "Arial";
+	font-size: 12px;
+	color: #b6b6b6;
+	text-align: justify;
+	line-height: 12px;
+	width: 266px;
+	margin: 21px 0 0 15px;
+}
+
+#skypaper{
+	margin:120px 0 0 0!important; 
+}
+
+
+#fichatecnica ol {
+	margin: 21px 0 0 15px;
+}
+
+#fichatecnica ol li {
+	font-family: 'Arial';
+	color: #878887;
+	font-size: 12px;
+	list-style: disc;
+	line-height: 14px;
+}
+
+#img-bonos{
+	margin: 33px 0 0 34px;
+	width: 324px;
+	height:130px; 
+	float:left;
+	background: url(images/back-img-jogos.jpg) no-repeat;	
 }
 
 
 
+.img-jogos{
+	width: 157px;
+	height:116px;
+	display: inline-block;
+	float: left; 
+	margin: 0 0 0 4px;
+}
 
+.img-mrx{
+	background: url(images/jogos/misterx-bonus3x.jpg) no-repeat;
+}
+
+.img-mrx-2{
+	background: url(images/jogos/misterx-jogo.jpg) no-repeat;
+}
+
+.img-acemania{
+	background: url(images/jogos/acemania-hh.jpg) no-repeat;
+}
+
+.img-acemania-2{
+	background: url(images/jogos/acemania-jackpot.jpg) no-repeat;
+}
+
+.img-farm{
+	background: url(images/jogos/fazenda_bolaextra.jpg) no-repeat;
+}
+
+.img-farm-2{
+	background: url(images/jogos/fazenda_inicial.jpg) no-repeat;
+}
+
+.img-gallaxy{
+	background: url(images/jogos/galaxy_inicial.jpg) no-repeat;
+}
+
+.img-gallaxy-2{
+	background: url(images/jogos/galaxy_quadra.jpg) no-repeat;
+}
+
+.img-genius{
+	background: url(images/jogos/genius_fortune.jpg) no-repeat;
+}
+
+.img-genius-2{
+	background: url(images/jogos/genius_magickey.jpg) no-repeat;
+}
+.img-golmania{
+	background: url(images/jogos/golmania-bingo.jpg) no-repeat;
+}
+
+.img-golmania-2{
+	background: url(images/jogos/golmania-jackpot.jpg) no-repeat;
+}
+
+.img-hotchilli{
+	background: url(images/jogos/hotchilli_entradabonus.jpg) no-repeat;
+}
+.img-hotchilli-2{
+	background: url(images/jogos/hotchilli_premioquadra.jpg) no-repeat;
+}
+
+.img-lollipop{
+	background: url(images/jogos/lollipop-bonus.jpg) no-repeat;
+}
+.img-lollipop-2{
+	background: url(images/jogos/lollipop-jogo.jpg) no-repeat;
+}
+
+.img-newtriple{
+	background: url(images/jogos/newtriple-bingo.jpg) no-repeat;
+}
+.img-newtriple-2{
+	background: url(images/jogos/newtriple-inicial.jpg) no-repeat;
+}
+
+.img-topo{
+	background: url(images/jogos/rico-bingo.jpg) no-repeat;
+}
+.img-topo-2{
+	background: url(images/jogos/rico-inicial.jpg) no-repeat;
+}
+
+.img-skybonus{
+	background: url(images/jogos/skybonus_bolaextra.jpg) no-repeat;
+}
+.img-skybonus-2{
+	background: url(images/jogos/skybonus_entradabonus.jpg) no-repeat;
+}
+
+.img-triplebonus{
+	background: url(images/jogos/triplebonus-bonus1.jpg) no-repeat;
+}
+.img-triplebonus-2{
+	background: url(images/jogos/triplebonus-bonus2.jpg) no-repeat;
+}
+
+.img-vikings{
+	background: url(images/jogos/vikings_bolaextra.jpg) no-repeat;
+}
+.img-vikings-2{
+	background: url(images/jogos/vikings_premio.jpg) no-repeat;
+}
+
+.img-circus{
+	background: url(images/jogos/circus1.jpg) no-repeat;
+}
+.img-circus-2{
+	background: url(images/jogos/circus2.jpg) no-repeat;
+}
+
+.img-luckynote{
+	background: url(images/jogos/luckynote.jpg) no-repeat;
+}
+.img-luckynote-2{
+	background: url(images/jogos/luckynote-2.jpg) no-repeat;
+}
 /*======================PRODUCTOS========================================= */
 
 #slide-producto-bono{ width: 800px; height: 500px; overflow: hidden; margin:0px auto 0 auto; 
@@ -100,7 +295,9 @@ a#gadgets_boton{width: 246px; height: 102px; display: block; float: left;
 border: 1px solid #c2c2c2 }
 a#gadgets_boton:hover{ background: url(images/boton-gadgets-hover.jpg) no-repeat;}
 
-#image-gad{ width: 743px; height: 352px; background: url(images/image-gadgets.jpg) no-repeat; margin: 30px auto 0 auto}
+#image-gad{ width: 743px; height: 352px;  margin: 30px auto 0 auto}
+.back-gad{ background: url(images/image-gadgets.jpg) no-repeat;}
+.back-silla{ background: url(images/back-silla.jpg) no-repeat;}
 
 /*------------------------------------------------------------------FOOTER----------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
@@ -118,7 +315,6 @@ margin: 0 auto; }
 #video-bono{
 	height:; 
 	float:;
-
 }
 
 

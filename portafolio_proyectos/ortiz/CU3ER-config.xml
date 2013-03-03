@@ -157,5 +157,14 @@
       <description/>
     </slide>
     <transition flipDirection="up" columns="1" rows="1" flipOrder="270" flipDepth="800" flipDuration="0.9"/>
+    <slide>
+      <url><![CDATA[slide-6.jpg]]></url>
+      <link/>
+      <seo>
+        <show image="true" heading="true" paragraph="true" caption="true"/>
+      </seo>
+      <description/>
+    </slide>
+    <transition flipDirection="up" columns="1" rows="1" flipOrder="270" flipDepth="800" flipDuration="0.9"/>
   </slides>
 </data>
