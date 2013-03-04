@@ -5,6 +5,11 @@
 	width: 830px; height: 460px; margin: 0 auto
 
 }
+
+@font-face{
+	font-family: "Impact";
+	src: url(impact.ttf) format("truetype");
+}
 #entrada{ width: 350px; height: 460px; float: left;margin-left: 25px; padding: 10px 25px 0px 25px;
 
 
@@ -31,9 +36,29 @@ overflow: auto;
 
  }
 
- #entrada h3 { padding: 10px 0px 5px 0px; font-weight: bold; font-size: 15px;}
+ #entrada h3 { padding: 10px 0px 5px 0px; 
+ 	font-weight: bold; font-size: 15px;
+	background: url(images/bars.png) no-repeat;
+	width: 336px;
+	height: 20px;
+	text-transform: uppercase;
+	font-family: "Impact";
+	text-align: center;
+ }
 
- #entrada p { font-size: 12px; text-align: justify; margin: 5px 0 5px 0}
+ #entryPhoto{
+ 	margin: 20px 0 20px 0;
+ }
+
+ #entrada p { font-size: 12px; 
+ 	text-align: justify; margin: 5px 0 5px 0;
+	color: #989898;
+	line-height: 14px;
+ }
+
+ .sangry{
+ 	color: #404040;
+ }
 
 .foto-entry{
 	width: 340px; height: 270px; display: block; margin: 5px auto 0 auto;
@@ -80,10 +105,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	width: 130px;
 	height: 80px;
 	float: left;
-	font-size: .65em;
+	font-size: .75em;
 	font-family: 'arial';
 	margin-bottom: 10px;
 	text-align: justify;
+	#color: #737373 !important;
 
 }
 
