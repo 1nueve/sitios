@@ -46,7 +46,7 @@ TABLE OF CONTENTS
 }
 	.wrapper_menu .menu {
 		list-style:none;
-		width:791px;
+		width:800px;
 		/*margin:0 auto;*/
 		height:43px;
 		padding:0 20px 0 20px;
@@ -165,7 +165,7 @@ TABLE OF CONTENTS
 /* Drop Downs Sizes */
 
 .menu .dropdown_1column {width: 145px;}
-.menu .dropdown_2columns {width: 320px; padding: 0 0 0 500px;}
+.menu .dropdown_2columns {width: 320px; padding: 0 0 0 510px;}
 .menu .dropdown_3columns {width: 455px;}
 .menu .dropdown_4columns {width: 610px;}
 .menu .dropdown_5columns {width: 765px;}
@@ -579,7 +579,7 @@ TABLE OF CONTENTS
 }
 .menu_light_theme ul li:hover a {
 	color:#161616;
-	border-bottom:1px solid #EEEEEE;
+	border-bottom:1px solid transparent;
 }
 .menu_light_theme ul li .drop,
 .menu_light_theme .menu li.noactive .drop {

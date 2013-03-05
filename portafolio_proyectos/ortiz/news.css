@@ -98,18 +98,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding: 10px
 }
 
-.entry-list-cont h4 { font-size: .90em; font-family: 'arial'; margin-bottom: 10px; font-weight: bold; }
+.entry-list-cont h4 { font-size: .8em; font-family: 'arial'; margin-bottom: 10px; font-weight: bold; }
 
 .entry-list-resume {
 
 	width: 130px;
 	height: 80px;
 	float: left;
-	font-size: .75em;
+	font-size: .65em;
 	font-family: 'arial';
 	margin-bottom: 10px;
-	text-align: justify;
-	#color: #737373 !important;
+	text-align: left;
+	
 
 }
 

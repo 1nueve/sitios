@@ -64,6 +64,7 @@ line-height: 75px;}
 	height: 335px;
 	margin: 0 auto;
 	background: url(images/back-bono.gif)no-repeat;
+	background-position: 20px 0;
 }
 
 #ficha-ofuture{
@@ -71,13 +72,14 @@ line-height: 75px;}
 	height: 335px;
 	margin: 0 auto;
 	background: url(images/back-ofuture.gif)no-repeat;
+	background-position: 20px 0;
 }
 
 #videobonos{
 	width: 393px;
 	height:250px; 
 	float:left;
-	margin: 40px 0 0 20px;
+	margin: 40px 0 0 40px;
 }
 
 #fichatecnica{
@@ -298,6 +300,7 @@ a#gadgets_boton:hover{ background: url(images/boton-gadgets-hover.jpg) no-repeat
 #image-gad{ width: 743px; height: 352px;  margin: 30px auto 0 auto}
 .back-gad{ background: url(images/image-gadgets.jpg) no-repeat;}
 .back-silla{ background: url(images/back-silla.jpg) no-repeat;}
+.back-caja{ background: url(images/back-caja.gif) no-repeat;}
 
 /*------------------------------------------------------------------FOOTER----------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
@@ -325,7 +328,7 @@ margin: 0 auto; }
 #textos{
 	width: 686px;
 	height: 407px;
-	padding: 30px 93px 0 84px;
+	padding: 30px 90px 0 90px;
 	margin: 0 auto;
 	font-family: "Arial";
 	color: #818181;
@@ -365,7 +368,7 @@ a#mrx{background: url(images/bonos/bonos-19.png) no-repeat;}a#mrx:hover{backgrou
 
 a#chickenfarm{background: url(images/bonos/bonos-21.png) no-repeat;}a#chickenfarm:hover{background: url(images/bonos/bonos-22.png) no-repeat;}
 
-a#topo{background: url(images/bonos/bonos-23.png) no-repeat;}a#topo:hover{background: url(images/bonos/bonos-23.png) no-repeat;}
+a#topo{background: url(images/bonos/bonos-23.png) no-repeat;}a#topo:hover{background: url(images/bonos/bonos-24.png) no-repeat;}
 
 a#skybonus{background: url(images/bonos/bonos-25.png) no-repeat;}a#skybonus:hover{background: url(images/bonos/bonos-26.png) no-repeat;}
 

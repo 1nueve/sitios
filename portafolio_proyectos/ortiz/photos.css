@@ -104,13 +104,24 @@ hr { border: 1px  dotted #bebebe; width:85%; margin: 20px auto  20px auto;}
 
 .centro{ margin: 0 auto; display: block;}
 
+.foto-entry{
+	margin-bottom: 108px;
+}
+
 
 /*===============DATOS-----------======================*/
 
 #metadatos{
 
-	float: left;
+	margin: 64px 0 0 0;
+	font-size: 12px;
+	line-height: 18px;
 }
+
+#title, #lugar, #fecha{
+	color: #cfcfd0;
+}
+
 
 
 
