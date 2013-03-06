@@ -2,7 +2,9 @@
 
 #wrapper-cms{
 
-	width: 846px; height: 460px; margin: 0 auto
+	width: 846px; height: 554px; margin: 0 auto;
+	background: url(images/side-shadow.gif) no-repeat;
+	background-position: 672px 0;
 
 }
 #entrada{ width: 425px; height: 365px; float: left;margin-left: 25px; padding: 30px 25px 0px 107px;
@@ -29,19 +31,34 @@ font-family: 'arial';
 	width: 420px; height: 270px; display: block; margin: 5px auto 0 auto;
 }
 
-#blog-list {
-width: 180px;
-height: 568px;
-float: right;
-overflow: auto;
-background: url(images/video.gif) repeat-y 39px 416px;
+#wrapperlist{
+	width: 150px;
+	height: 573px;
+	overflow: hidden;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 5px;
+	right: 7px;
+
+
 }
 
-.entry-list{ width: 130px; height: 415px; margin: 0 0 0 41px; overflow: hidden;
-	background: url(images/film.gif) repeat-y center;
-	-webkit-box-shadow:  0px 0px 6px 3px rgba(0, 0, 0, .4);
+#blog-list {
+width: 162px;
+height: 568px;
+float: right;
+overflow-x:hidden;
+background: url(images/video.gif) repeat-y 12px 416px;
+
+}
+
+.entry-list{ width: 186px; height: 415px; 
+	margin: 0 0 0 0px; overflow-x: hidden;
+	background: url(images/film.gif) repeat-y 26px center;
+	-webkit-box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
         
-        box-shadow:  0px 0px 6px 3px rgba(0, 0, 0, .4);
+        box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
 }
 
        
@@ -52,15 +69,17 @@ background: url(images/video.gif) repeat-y 39px 416px;
 
 .entry-list-thumb{
 
-	width: 117px; height: 65px;
+	width: 150px; height: 65px;
 	margin: 0 auto;
 	background:#f1f1f1;
 
 }
 
-.entry-list-thumb:hover{ background: #e2e2e2;
-	background: url(images/film-black.gif) repeat-y;
-	background-position: 8px center;
+.entry-list-thumb:hover{ background: #e0e0e0;
+
+	background: url(images/film-black.gif) repeat;
+	background-position: -15px center;
+
 	;
 
 

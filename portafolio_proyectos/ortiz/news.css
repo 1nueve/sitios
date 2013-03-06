@@ -108,7 +108,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	font-size: .65em;
 	font-family: 'arial';
 	margin-bottom: 10px;
-	text-align: left;
+	text-align:justify;
+	color: #737373;
 	
 
 }

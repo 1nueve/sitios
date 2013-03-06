@@ -111,7 +111,7 @@ line-height: 75px;}
 	width: 272px;
 	height:130px; 
 	float:left;
-	margin: 40px 0 0 35px;	
+	margin: 40px 0 0 18px;	
 }
 
 #fichatecnicasky p{
@@ -122,6 +122,12 @@ line-height: 75px;}
 	line-height: 12px;
 	width: 266px;
 	margin: 21px 0 0 15px;
+}
+
+#fichamagic{
+
+
+	margin: 35px 0 0 23px;
 }
 
 #skypaper{
@@ -267,6 +273,13 @@ line-height: 75px;}
 }
 .img-luckynote-2{
 	background: url(images/jogos/luckynote-2.jpg) no-repeat;
+}
+
+.img-sirprize{
+	background: url(images/jogos/sirprize-1.jpg) no-repeat;
+}
+.img-sirprize-2{
+	background: url(images/jogos/sirprize-2.jpg) no-repeat;
 }
 /*======================PRODUCTOS========================================= */
 
