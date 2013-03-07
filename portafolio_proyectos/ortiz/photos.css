@@ -51,12 +51,12 @@ background: url(images/cam.gif) repeat-y 30px 416px;
 }
 
 .entry-list{ 
-	width: 180px;
+	width: 150px;
 	height: 415px;
 	margin: 0 0 0 15px;
-	overflow: hidden;
+	padding: 0 0 0 15px;
+	overflow-y: auto;
 	-webkit-box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
-        
         box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
 }
 
@@ -71,6 +71,7 @@ background: url(images/cam.gif) repeat-y 30px 416px;
 	width: 117px; height: 65px;
 	margin: 0 auto;
 	background:#f1f1f1;
+	
 
 }
 
