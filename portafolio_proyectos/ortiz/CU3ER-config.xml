@@ -113,7 +113,7 @@
   </defaults>
   <slides aling_to="stage" align_pos="MC" width="670" height="275" x="0" y="0" corner_TL="0,0" corner_TR="940,0" corner_BL="0,300" corner_BR="940,300">
     <slide>
-      <url><![CDATA[slide-1.jpg]]></url>
+      <url><![CDATA[slide-7.jpg]]></url>
       <link target="_self"/>
       <seo>
         <show image="true" heading="true" paragraph="true" caption="true"/>
@@ -130,7 +130,7 @@
       <description/>
     </slide>
     <transition flipDirection="left" columns="1" rows="1" flipOrder="0" flipDepth="1100" flipDuration="0.6999999999999998" flipAngle="90" flipBoxDepth="100"/>
-    <slide>
+    <!-- <slide>
       <url><![CDATA[slide-3.jpg]]></url>
       <link/>
       <seo>
@@ -146,7 +146,7 @@
         <show image="true" heading="true" paragraph="true" caption="true"/>
       </seo>
       <description/>
-    </slide>
+    </slide> 
     <transition flipDirection="up" rows="6" columns="1" flipOrder="270" flipDepth="264" flipDuration="0.6000000000000002" flipAngle="90" flipBoxDepth="20" flipRandomize="2.7755575615628914e-17" flipDelay="0.1"/>
     <slide>
       <url><![CDATA[slide-2.jpg]]></url>
@@ -155,7 +155,7 @@
         <show image="true" heading="true" paragraph="true" caption="true"/>
       </seo>
       <description/>
-    </slide>
+    </slide>-->
     <transition flipDirection="up" columns="1" rows="1" flipOrder="270" flipDepth="800" flipDuration="0.9"/>
     <slide>
       <url><![CDATA[slide-6.jpg]]></url>

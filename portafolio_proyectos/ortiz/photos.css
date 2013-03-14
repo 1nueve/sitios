@@ -56,8 +56,8 @@ background: url(images/cam.gif) repeat-y 30px 416px;
 	margin: 0 0 0 15px;
 	padding: 0 0 0 15px;
 	overflow-y: auto;
-	-webkit-box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
-        box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
+	/*-webkit-box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
+        box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);*/
 }
 
        
@@ -74,6 +74,19 @@ background: url(images/cam.gif) repeat-y 30px 416px;
 	
 
 }
+
+.shadow-top, .shadow-bottom{
+	width: 137px;
+	height: 23px;
+	display: block;
+	position:absolute;
+	left: 0px;
+	background: #000000;
+	z-index: 1;
+}
+
+.shadow-top{background: url(images/shadow-top.png)no-repeat;}
+.shadow-bottom{background: url(images/shadow-bottom.png)no-repeat; bottom: 157px;}
 
 .entry-list-thumb:hover{ background: #e2e2e2;
 		-webkit-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, .3);

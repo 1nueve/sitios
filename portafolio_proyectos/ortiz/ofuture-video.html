@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title> Ortiz Gaming  </title>
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="stylesheet" href="video.css" media="screen" />
+    <link rel="stylesheet" href="reset.css" media="screen" />
+
+    <link rel="stylesheet" href="css/megamenu.css" type="text/css" media="screen" /><!-- Menu -->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/mobile.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+
+    <!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="css/ie/ie.css" />
+<![endif]-->
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#contenido").fadeIn("slow");
+        });
+    </script>
+
+    
+
+  
+	</head>
+<body>
+
+<div id='container'>
+
+    <div id='header'>
+
+        <a href='#'id='flag'></a>
+        <h2 id='header_title'> DIVERSION GARANTIZADA</h2>
+        <a href='index.html' id='logo'></a>
+        
+
+
+    </div>
+    <div class="wrapper_menu menu_light_theme"><!-- BEGIN MENU WRAPPER -->
+        <ul class="menu menu_lightblue"><!-- BEGIN MENU -->
+            <li><a href="#" class="drop"  style="margin-right:5px;">NOSOTROS</a><!-- Begin 1 column Item -->
+                <div class="dropdown_1column"><!-- Begin 1 column container -->
+                    <div class="col_1 firstcolumn">               
+                        <ul class="levels">                    
+                            <li ><a class='submenu'  href="carta-del-presidente.html"> CARTA DEL PRESIDENTE <img src="images/arrow.png"> </a> </li>
+                            <li ><a class='submenu' href="historia.html">HISTORIA <img src="images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="mision.html">MISION <img src="images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="vision.html">VISION <img src="images/arrow.png"></a></li>    
+                        </ul>                        
+                    </div>
+                </div><!-- End 1 column container -->
+            </li><!-- End 1 column Item -->
+
+            <li><a href="#" class="drop"  style="margin-left:10px;">PRODUCTOS</a><!-- Begin 1 column Item -->
+                <div class="dropdown_1column"> <!-- Begin 1 column container -->
+                    <div class="col_1 firstcolumn">               
+                        <ul class="levels">                   
+                            <li ><a class='submenu'  href="video-bingo.html">VIDEO BINGO <img src="images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="bonos.html">BONOS <img src="images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="jogos/ofuture.html">GABINETES <img src="images/arrow.png"></a></li>
+                        </ul>                       
+                    </div> 
+                </div><!-- End 1 column container --> 
+            </li><!-- End 1 column Item -->
+
+            <li class="nodrop" style="margin-left:16px; width:130px;"><a href="gadgets.html">ACCESORIOS</a></li><!-- No Drop Down Item -->
+
+            <li class="nodrop" style=" width:111px;"><a href="noticias.html">NOTICIAS</a></li><!-- No Drop Down Item -->
+
+            <li ><a href="#" class="drop"  >GALERIA</a><!-- Begin 1 column Item -->
+                <div class="dropdown_1column"><!-- Begin 1 column container -->
+                    <div class="col_1 firstcolumn">               
+                        <ul class="levels">                   
+                            <li ><a class='submenu'  href="video.html">VIDEO <img src="images/arrow.png"></a></li>
+                            <li ><a class='submenu'  href="fotografia.html">FOTOGRAFIA<img src="images/arrow.png"></a></li>
+                        </ul>       
+                    </div>            
+                </div><!-- End 1 column container -->      
+            </li><!-- End 1 column Item -->
+
+
+            <li class="right"><a href="#" class="drop"   >CONTACTO</a><!-- Begin Contact Item -->
+                <div class="dropdown_2columns align_right"><!-- Begin right aligned container -->        
+                    <div class="col_2 firstcolumn">
+                    
+                        <h2>Contacto</h2>
+
+                        <p>
+                            Gracias por visitar nuestra página. En Ortiz Gaming es muy importante estar en contacto 
+                            con usted, si tiene alguna duda o comentario sobre alguno de nuestros productos, favor 
+                            de llenar en formulario y en breve nos pondremos en contacto.
+                        </p>
+                                
+                        <div class="contact_form">
+                        
+                            <div class="message">
+                                <div id="alert"></div>
+                            </div>
+                            
+                            <form method="post" action="js/sendmail.php" id="contactForm">
+                            
+                                <label for="name">Nombre<span class="required"> *</span></label>
+                                <input name="name" type="text" id="name" size="30" value="" autocomplete="off" /> 
+                                
+                                <br />
+                                <label for="email">Teléfono<span class="required"> *</span></label>
+                                <input name="email" type="text" id="tel" size="30" value="" autocomplete="off" />
+                                
+                                <br />
+                                <label for="email">Email<span class="required"> *</span></label>
+                                <input name="email" type="text" id="email" size="30" value="" autocomplete="off" />
+                                
+                                <br />
+                                <label for="message">Mensaje<span class="required"> *</span></label>
+                                <textarea name="message" cols="40" rows="3"  id="message"></textarea>
+                                    
+                                <p class="special"><label for="last">Don't fill this in :</label><input type="text" name="last" value="" id="last" /></p>
+                                
+                                <div class="form_buttons">
+                                <input type="submit" class="button" id="submit" value="Enviar" />
+                                <input type="reset" class="button" id="reset" value="Borrar" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            
+                    <div class="col_2 firstcolumn">
+                    
+                        <h2>Encu&eacute;ntrenos en las Redes Sociales</h2>
+                        <ul class="social">
+                            <li><a href="#"><img src='img/twitter.png' alt="" /><span>Twitter</span></a></li>
+                            <li><a href="#"><img src='img/facebook.png' alt="" /><span>Facebook</span></a></li>                        
+                        </ul>                   
+                    </div>
+                </div><!-- End right aligned container -->              
+            </li><!-- End Contact Item -->
+        </ul><!-- END MENU -->
+    </div><!-- END MENU WRAPPER -->
+
+
+<!-- ======================================= COMIENZA EL CONTENIDO AUTOADMINISTRABLE CMS =================================================================== -->
+
+<DIV  id='contenido'>
+    <div id='wrapper-cms'>
+        
+
+        <!-- INICIA LA ENTRADA DEL CMS-->
+
+        <div id='entrada'>
+            
+
+            <iframe src="http://player.vimeo.com/video/60796352?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1 " width="430" height="316" frameborder="0"  webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+            <div id="metadatos">
+                <span id="title">T&iacute;tulo:</span>
+                <span id="title-data">Global Expo Gaming </span> <br>
+                <span id="lugar">Lugar:</span>
+                <span id="lugar-data">Las Vegas NV</span><br>
+                <span id="fecha">Fecha:</span>
+                <span id="fecha-data">2 al 4 Octubre 2012</span>
+            </div>
+        </div>
+
+
+        <!-- FIN DE ENTRADA DEL CMS-->
+
+        <!-- INICIA LISTA DE ENTRADAS-->
+        <div id="wrapperlist">
+            <div id="blog-list">
+                <div class="shadow-top"> &nbsp; </div>
+                <div class="shadow-bottom"> &nbsp; </div>
+                
+
+                <div class='entry-list'>
+                    <div class='entry-list-thumb'> 
+
+                        <!-- imangen del thumb-->
+
+                        <a href="video.html"><img class="centro" src="images/thumb-vegas.jpg"></a>
+
+                    </div>
+
+                    <div class='entry-list-thumb'> 
+
+                        <!-- imangen del thumb-->
+
+                        <a href="ela-video.html"><img class="centro" src="images/thumb-ela.jpg"></a>
+
+                    </div>
+
+                    <div class='entry-list-thumb'> 
+
+                        <!-- imangen del thumb-->
+
+                        <a href="ofuture-video.html"><img class="centro" src="images/ofuture-video-.jpg"></a>
+
+                    </div>
+                   
+
+
+                    <div id="blanco">
+                        
+                    </div>
+
+                    
+                </div>            
+            </div>
+        </div>
+
+        <!-- FIN DE LISTA DE ENTRADAS-->
+    </div>
+
+
+    
+    
+
+            
+</DIV>
+
+
+
+
+
+
+<!-- ======================================= FINALIZA EL CONTENIDO EDITABLE =================================================================== -->
+
+
+
+
+    
+    
+    
+</div>
+
+<footer id='footer'> 
+    <a href="#" id="social"></a>
+    <p id="copyright"> Copyright © Ortiz Gaming 2012 </p>
+</footer>    
+
+</body>
+</html>

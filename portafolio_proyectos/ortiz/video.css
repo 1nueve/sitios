@@ -56,13 +56,26 @@ background: url(images/video.gif) repeat-y 12px 416px;
 .entry-list{ width: 186px; height: 415px; 
 	margin: 0 0 0 0px; overflow-x: hidden;
 	background: url(images/film.gif) repeat-y 26px center;
-	-webkit-box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
+	/*-webkit-box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
         
-        box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);
+        box-shadow: inset 0px 5px 20px 5px rgba(0, 0, 0, .7);*/
 }
 
-       
+.shadow-top, .shadow-bottom{
+	width: 150px;
+	height: 23px;
+	display: block;
+	position:absolute;
+	left: 0px;
+	background: #000000;
+	z-index: 1;
+}
 
+.shadow-top{background: url(images/shadow-top.png)no-repeat;}
+.shadow-bottom{background: url(images/shadow-bottom.png)no-repeat; bottom: 157px;}
+
+       
+.entry-list .entry-list-thumb{ padding: 0 0 0 43px;}
 
     
 }
@@ -80,10 +93,11 @@ background: url(images/video.gif) repeat-y 12px 416px;
 	background: url(images/film-black.gif) repeat;
 	background-position: -15px center;
 
-	;
 
 
 }
+
+#blanco{ width: 144px; height: 100%; margin: 3px 0 0 0; display: block; background: #ffffff; float: right;}
 
 .entry-list-cont{
 	width: 130px; height: 130px;
@@ -122,7 +136,7 @@ hr { border: 1px  dotted #bebebe; width:85%; margin: 20px auto  20px auto;}
 
 /* thumb centrado */
 
-.centro{ margin: 0 auto; display: block;}
+.centro{ /*margin: 0 auto;*/ display: block;}
 
 
 /*===============DATOS-----------======================*/

@@ -29,22 +29,26 @@ line-height: 75px;}
 #logo{width: 150px; height: 70px; display: block; background: url(images/logo.png) no-repeat; float: left; margin-left: 95px}
 
 .submenu{
-		border-bottom: 1px solid #d5cbdc; color: #000000 !important; 	
+		border-bottom: 1px solid #d5cbdc; color: #000000 !important;  	
 	}	
 
-.submenu:hover{ background: #d0cfcd; width: 200px}
+.submenu:hover{ background: #d0cfcd; width: 210px;}
+
+.menu .levels a.submenu{ padding-left: 5px;}
 
 /*======================INDEX========================================= */
 #slide{ width: 668px; height :275px; margin-top: }
 
 #games{ width: 670px; height: 72px; margin: 0 auto; margin-top: 70px;}
-.games_option{ width: 19%; height: 100%; display: inline-block;}
-.games_option:hover{ opacity: .5}
-#x{ background:  url(images/mrx.jpg) no-repeat center;}
-#farm{ background:  url(images/farm.jpg) no-repeat center;}
-#vikings-home{ background:  url(images/vikings.jpg) no-repeat center;}
-#hot{ background:  url(images/hot.jpg) no-repeat center;}
-#future{ background:  url(images/future.jpg) no-repeat center;}
+a.games_option{ width: 19%; height: 72px; display: inline-block;}
+a#farm, a#vikings-home, a#hot, a#future, a#x {background-position: left top ;}
+a#x{ background: url(images/mrx.jpg) no-repeat;  }
+a#x:hover, a#farm:hover, a#vikings-home:hover, a#hot:hover, a#future:hover {background-position: 0 -72px;}
+
+a#farm{ background:  url(images/farm.jpg) no-repeat ;}
+a#vikings-home{ background:  url(images/vikings.jpg) no-repeat ;}
+a#hot{ background:  url(images/hot.jpg) no-repeat;}
+a#future{ background:  url(images/future.jpg) no-repeat ;}
 #sliders { width: 670px; height: 275px; margin: 0 auto; }
 
 /*======================PRODUCTO========================================= */
@@ -63,7 +67,15 @@ line-height: 75px;}
 	width: 825px;
 	height: 335px;
 	margin: 0 auto;
-	background: url(images/back-bono.gif)no-repeat;
+	background: url(images/back-bono.jpg)no-repeat;
+	background-position: 20px 0;
+}
+
+#ficha-magic{
+	width: 825px;
+	height: 335px;
+	margin: 0 auto;
+	background: url(images/back-magic.jpg)no-repeat;
 	background-position: 20px 0;
 }
 
@@ -104,7 +116,7 @@ line-height: 75px;}
 	color: #b6b6b6;
 	text-align: justify;
 	line-height: 14px;
-	margin: 21px 0 0 15px;
+	margin: 0px 0 0 15px;
 }
 
 #fichatecnicasky{
@@ -348,7 +360,7 @@ margin: 0 auto; }
 	text-align: justify;
 }
 
-#textos p { font-size: 12px; word-spacing: 0.2em; line-height: 1.4em; padding: 10px 0}
+#textos p { font-size: 12px; word-spacing: 0.2em; line-height: 1.4em; padding: 7px 0}
 
 #textos-title { margin: 0 0 22px 0; font-weight: bold;}
 
@@ -395,6 +407,24 @@ a#vikings{background: url(images/bonos/bonos-33.png) no-repeat;}a#vikings:hover{
 
 a#newtriple{background: url(images/bonos/bonos-35.png) no-repeat;}a#newtriple:hover{background: url(images/bonos/bonos-36.png) no-repeat;}
 
+
+/*=================VSR======================*/
+#vsr{
+
+	background:url(images/gabinete-vsr.jpg)  no-repeat;
+	height: 500px; width: 800px;
+	margin: 0 auto;
+}
+
+#blanco{ width: 144px; height: 100%; margin: 3px 0 0 0; display: block; background: #ffffff; float: right;}
+
+#galeria{ width: 45px; height: 50px; 
+	display: block;
+	position: relative;
+	top: 56px;
+	left: 82px;	
+	
+}
 
 
 

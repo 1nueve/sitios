@@ -586,6 +586,7 @@ TABLE OF CONTENTS
 	/*background:url("../img/arrow_down1.png") no-repeat right 13px;*/
 }
 .menu_light_theme ul li:hover .drop {
+	padding-left: 5px;
 	/*background:url("../img/arrow_down1.png") no-repeat right 12px;*/
 }
 .menu_light_theme ul .dropdown_1column, 
@@ -1332,3 +1333,6 @@ TABLE OF CONTENTS
 
 
 }
+
+
+.submenu{ padding-left: 5px;}
