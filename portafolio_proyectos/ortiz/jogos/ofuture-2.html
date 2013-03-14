@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <title> Ortiz Gaming  </title>
-    <link rel="stylesheet" href="style.css" media="screen" />
-    <link rel="stylesheet" href="reset.css" media="screen" />
+    <link rel="stylesheet" href="../style.css" media="screen" />
+    <link rel="stylesheet" href="../reset.css" media="screen" />
 
-    <link rel="stylesheet" href="css/megamenu.css" type="text/css" media="screen" /><!-- Menu -->
+    <link rel="stylesheet" href="../css/megamenu.css" type="text/css" media="screen" /><!-- Menu -->
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/mobile.js"></script>
-    <script type="text/javascript" src="js/form.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/mobile.js"></script>
+    <script type="text/javascript" src="../js/form.js"></script>
 
     <!--[if lt IE 9]>
 <link rel="stylesheet" type="text/css" href="css/ie/ie.css" />
@@ -28,20 +28,20 @@
     <!-- get jQuery from the google apis -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
 
-
-
-
-    
-
   
 	</head>
 <body>
 
 <div id='container'>
+
     <div id='header'>
+
         <a href='#'id='flag'></a>
         <h2 id='header_title'> DIVERSION GARANTIZADA</h2>
-        <a href='index.html' id='logo'></a>
+        <a href='../index.html' id='logo'></a>
+        
+
+
     </div>
 
     <div class="wrapper_menu menu_light_theme"><!-- BEGIN MENU WRAPPER -->
@@ -50,10 +50,10 @@
                 <div class="dropdown_1column"><!-- Begin 1 column container -->
                     <div class="col_1 firstcolumn">               
                         <ul class="levels">                    
-                            <li ><a class='submenu'  href="carta-del-presidente.html"> CARTA DEL PRESIDENTE <img src="images/arrow.png"> </a> </li>
-                            <li ><a class='submenu' href="historia.html">HISTORIA <img src="images/arrow.png"></a></li>
-                            <li ><a class='submenu' href="mision.html">MISION <img src="images/arrow.png"></a></li>
-                            <li ><a class='submenu' href="vision.html">VISION <img src="images/arrow.png"></a></li>    
+                            <li ><a class='submenu'  href="../carta-del-presidente.html"> CARTA DEL PRESIDENTE <img src="../images/arrow.png"> </a> </li>
+                            <li ><a class='submenu' href="../historia.html">HISTORIA <img src="../images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="../mision.html">MISION <img src="../images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="../vision.html">VISION <img src="../images/arrow.png"></a></li>    
                         </ul>                        
                     </div>
                 </div><!-- End 1 column container -->
@@ -63,24 +63,24 @@
                 <div class="dropdown_1column"> <!-- Begin 1 column container -->
                     <div class="col_1 firstcolumn">               
                         <ul class="levels">                   
-                            <li ><a class='submenu'  href="video-bingo.html">VIDEO BINGO <img src="images/arrow.png"></a></li>
-                            <li ><a class='submenu' href="bonos.html">BONOS <img src="images/arrow.png"></a></li>
-                            <li ><a class='submenu' href="jogos/ofuture.html">GABINETES <img src="images/arrow.png"></a></li>
+                            <li ><a class='submenu'  href="../video-bingo.html">VIDEO BINGO <img src="../images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="../bonos.html">BONOS <img src="../images/arrow.png"></a></li>
+                            <li ><a class='submenu' href="../jogos/ofuture.html">GABINETES <img src="../images/arrow.png"></a></li>
                         </ul>                       
                     </div> 
                 </div><!-- End 1 column container --> 
             </li><!-- End 1 column Item -->
 
-            <li class="nodrop" style="margin-left:16px; width:130px;"><a href="gadgets.html">ACCESORIOS</a></li><!-- No Drop Down Item -->
+            <li class="nodrop" style="margin-left:16px; width:130px;"><a href="../gadgets.html">ACCESORIOS</a></li><!-- No Drop Down Item -->
 
-            <li class="nodrop" style=" width:111px;"><a href="noticias.html">NOTICIAS</a></li><!-- No Drop Down Item -->
+            <li class="nodrop" style=" width:111px;"><a href="../noticias.html">NOTICIAS</a></li><!-- No Drop Down Item -->
 
             <li ><a href="#" class="drop"  >GALERIA</a><!-- Begin 1 column Item -->
                 <div class="dropdown_1column"><!-- Begin 1 column container -->
                     <div class="col_1 firstcolumn">               
                         <ul class="levels">                   
-                            <li ><a class='submenu'  href="video.html">VIDEO <img src="images/arrow.png"></a></li>
-                            <li ><a class='submenu'  href="fotografia.html">FOTOGRAFIA<img src="images/arrow.png"></a></li>
+                            <li ><a class='submenu'  href="../video.html">VIDEO <img src="../images/arrow.png"></a></li>
+                            <li ><a class='submenu'  href="../fotografia.html">FOTOGRAFIA<img src="../images/arrow.png"></a></li>
                         </ul>       
                     </div>            
                 </div><!-- End 1 column container -->      
@@ -105,7 +105,7 @@
                                 <div id="alert"></div>
                             </div>
                             
-                            <form method="post" action="js/sendmail.php" id="contactForm">
+                            <form method="post" action="../js/sendmail.php" id="contactForm">
                             
                                 <label for="name">Nombre<span class="required"> *</span></label>
                                 <input name="name" type="text" id="name" size="30" value="" autocomplete="off" /> 
@@ -145,21 +145,49 @@
         </ul><!-- END MENU -->
     </div><!-- END MENU WRAPPER -->
 
-
 <!-- ======================================= COMIENZA EL CONTENIDO EDITABLE =================================================================== -->
 
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#contenido").fadeIn("slow");
-        });
-    </script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#contenido").fadeIn("slow");
+    });
+</script>
+
 
 <DIV  id='contenido'>
-    <DIV id='slide-producto-bono'>
-        <a href="jogos/magicpot.html" id="magicpot-gal"></a>
-        <a href="jogos/sirprice.html" id="sirprize-gal"></a>
-        
+    <div style="clear:both; width:100%; height:30px;"></div>
+
+    <DIV id='slide-producto'>
+        <!--<a id='arrow-izq' href="hotchilli.html"></a>-->
+        <img src="../images/slide-jogos/slide-4.jpg">
+        <a id='arrow-der' href="vsr.html"></a>
+
     </DIV>
+    <div id="ficha-ofuture">
+
+        <div id="videobonos">
+          <iframe src="http://player.vimeo.com/video/61382491?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1" width="392" height="221" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div id="fichatecnica">
+            <p>Es Nuestra m&aacute;quina que revolucionar&aacute; la 
+                experiencia del Video Bingo, cuenta con un dise&ntilde;o 
+                de vanguardia, una iluminaci&oacute;n c&aacute;lida que se adapta 
+                a diferentes tipos de juegos, pantalla doble HD 
+                en donde nuestras animaciones sorprenden por su 
+                definici&oacute;n y realismo, as&iacute; como, un nuevo sistema 
+                de audio envolvente 7.1 que genera sonidos puros y n&iacute;tidos.
+
+            </p>
+        </div>
+        <div id="img-bonos">
+            <img src="../images/ofuture-mach.jpg" alt="ofuture">
+        </div>
+
+
+    </div>
+    
+
+            
 </DIV>
 
 

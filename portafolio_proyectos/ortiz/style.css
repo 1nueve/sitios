@@ -296,8 +296,8 @@ a#future{ background:  url(images/future.jpg) no-repeat ;}
 /*======================PRODUCTOS========================================= */
 
 #slide-producto-bono{ width: 800px; height: 500px; overflow: hidden; margin:0px auto 0 auto; 
-	background: url(images/sombra-back.gif) 
-	no-repeat center 400px;}
+	background: url(images/backbonos.gif) 
+	no-repeat;}
 #arrow-der-bono{ width: 13px; height: 24px; background: url(images/arrow-der.gif) no-repeat; 
 	display: inline-block; float: right; margin-top:200px}
 #arrow-izq-bono{ width: 13px; height: 24px; background: url(images/arrow-izq.gif) no-repeat; 
@@ -305,6 +305,38 @@ a#future{ background:  url(images/future.jpg) no-repeat ;}
 
 #arrow-izq:hover{ opacity: .5}
 #arrow-der:hover{opacity: .5}
+
+
+a#vsr-gal, a#ofuture-gal, a#magicpot-gal, a#sirprize-gal{
+	background-color: #000;
+	background-position: left top;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 330px;
+    height: 240px;
+    text-indent: -9999px;
+    margin: 110px 0 0 60px;   
+}
+
+a#vsr-gal:hover, a#ofuture-gal:hover, a#magicpot-gal:hover, a#sirprize-gal:hover{
+	background-position: 0 -240px;  
+}
+
+a#vsr-gal {
+background: url(images/gal/bonos/vrs.png);
+}
+a#ofuture-gal {
+background: url(images/gal/bonos/future.png);
+}
+a#magicpot-gal {
+background: url(images/gal/bonos/magicpot.png);
+}
+a#sirprize-gal {
+background: url(images/gal/bonos/sirprize.png);
+}
+
+
 
 
 /*======================HISTORIA========================================= */
