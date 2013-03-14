@@ -428,6 +428,59 @@ a#newtriple{background: url(images/bonos/bonos-35.png) no-repeat;}a#newtriple:ho
 
 
 
+/*====================================////////GALERIA VIDEO BINGO//////========================================*/
+
+#cont-gal{ width: 715px; height:482px; overflow-y: auto; overflow-x:hidden;
+	margin: 0 auto; padding: 60px 0 0 0;
+
+}
+.row{
+	width: 690px; height: 190px; background: url(images/back-gal.gif) no-repeat;
+}
+
+.row-end{
+	width: 682px; height: 190px; background: url(images/back-gal-3.gif) no-repeat;
+}
+
+a#golmania-gal, a#circus-gal, a#genius-gal, a#hotchilli-gal,
+a#galaxy-gal, a#dulcemania-gal,a#mrx-gal,a#chickenfarm-gal,a#topo-gal,
+a#skybonus-gal,a#luckynote-gal,a#triplebonus-gal,a#acemania-gal,a#vikings-gal,a#newtriple-gal {
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 170px;
+    height: 135px;
+    text-indent: -9999px;   
+}
+
+a#acemania-gal{margin: 0 0 0 83px;}
+
+a#golmania-gal:hover, a#circus-gal:hover, a#genius-gal:hover, a#hotchilli-gal:hover,
+a#galaxy-gal:hover, a#dulcemania-gal:hover,a#mrx-gal:hover,a#chickenfarm-gal:hover,a#topo-gal:hover,
+a#skybonus-gal:hover,a#luckynote-gal:hover,a#triplebonus-gal:hover,a#acemania-gal:hover,a#vikings-gal:hover,a#newtriple-gal:hover {
+	background-position: 0 -145px;   
+}
+
+a#golmania-gal{ background: url(images/gal/golmania.png)}
+a#circus-gal{ background: url(images/gal/circus.png)}
+a#genius-gal{ background: url(images/gal/genial.png)}
+a#hotchilli-gal{ background: url(images/gal/hotchilli.png)}
+a#galaxy-gal{ background: url(images/gal/galaxy.png)}
+a#dulcemania-gal{ background: url(images/gal/dulce.png)}
+a#mrx-gal{ background: url(images/gal/mrx.png)}
+a#chickenfarm-gal{ background: url(images/gal/chickenfarm.png)}
+a#topo-gal{ background: url(images/gal/ricotopo.png)}
+a#skybonus-gal{ background: url(images/gal/skybonus.png)}
+a#luckynote-gal{ background: url(images/gal/luckynote.png)}
+a#triplebonus-gal{ background: url(images/gal/triplebonus.png)}
+a#acemania-gal{ background: url(images/gal/acemania.png)}
+a#vikings-gal{ background: url(images/gal/vikingsgold.png)}
+a#newtriple-gal{ background: url(images/gal/newtriple.png)}
+
+
+
+
 
 
 
