@@ -1,32 +1,45 @@
 Enlaces de los videos:
 
-Hot
-https://vimeo.com/61832139
-
-<iframe src="http://player.vimeo.com/video/61832139" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/61832139">hot</a> from <a href="http://vimeo.com/user16742171">Portafolio Branding</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
-
-Vicking
-https://vimeo.com/61835667
-
-<iframe src="http://player.vimeo.com/video/61835667?byline=0&amp;portrait=0" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/61835667">vicking</a> from <a href="http://vimeo.com/user16742171">Portafolio Branding</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
-
-Rico el topo
-https://vimeo.com/61834958
-
-<iframe src="http://player.vimeo.com/video/61834958?byline=0&amp;portrait=0" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/61834958">rico el topo</a> from <a href="http://vimeo.com/user16742171">Portafolio Branding</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+Gol Mania:
+<iframe src="http://player.vimeo.com/video/61839403?byline=0&amp;portrait=0&amp;color=60357d" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Video Genial:
 https://vimeo.com/61836681
 
-<iframe src="http://player.vimeo.com/video/61836681?byline=0&amp;portrait=0" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/61836681">video genial</a> from <a href="http://vimeo.com/user16742171">Portafolio Branding</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe src="http://player.vimeo.com/video/61836681?byline=0&amp;portrait=0" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Video Genial 2:
 https://vimeo.com/61836385
 
-<iframe src="http://player.vimeo.com/video/61836385?byline=0&amp;portrait=0&amp;color=ffffff" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/61836385">video genial 2</a> from <a href="http://vimeo.com/user16742171">Portafolio Branding</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe src="http://player.vimeo.com/video/61836385?byline=0&amp;portrait=0&amp;color=60357d" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+Hot
+https://vimeo.com/61832139
+
+<iframe src="http://player.vimeo.com/video/61832139" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Vicking
+https://vimeo.com/61835667
+
+<iframe src="http://player.vimeo.com/video/61835667?byline=0&amp;portrait=0" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Rico el topo
+https://vimeo.com/61834958
+
+<iframe src="http://player.vimeo.com/video/61834958?byline=0&amp;portrait=0" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
 
 
 Magic Pot:
 https://vimeo.com/61837161
 
-<iframe src="http://player.vimeo.com/video/61837161?byline=0&amp;portrait=0&amp;color=60357d" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/61837161">Magic pot</a> from <a href="http://vimeo.com/user16742171">Portafolio Branding</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe src="http://player.vimeo.com/video/61837161?byline=0&amp;portrait=0&amp;color=60357d" width="393" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+
+Video O Future:
+http://vimeo.com/61848979
+
+<iframe src="http://player.vimeo.com/video/61848979?byline=0&amp;portrait=0&amp;color=60357d" width="393" height="221" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
